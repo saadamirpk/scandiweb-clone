@@ -5,13 +5,13 @@ export default function Hero() {
   return (
     <section className="grey-back h-screen hero flex justify-center items-center">
       <div className="container">
-        <h1 className="heading ">
+        <h1 className="heading">
           <span className="grey">scandiweb is the only eCommerce agency, </span>
           <span className="black">which is happy to be your Plan B</span>
         </h1>
         <div className="relative">
           <img
-            className="absolute right-0 top-[-60px]"
+            className="absolute right-0 md:top-[-60px] top-0"
             src={diamond}
             alt="Icon"
           />
